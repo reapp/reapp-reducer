@@ -1,0 +1,15 @@
+{
+  "name": "reapp-reducer",
+  "version": "1.0.0",
+  "description": "reduces objects or arrays into an array of objects with { id, status, data }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/reapp/reapp-reducer"
+  },
+  "author": "Nate Wienert",
+  "license": "MIT"
+}

@@ -1,3 +1,5 @@
+## reapp-reducer
+
 Simple reducer for use with flux. Reduces an array or map into an array of objects with:
   { id, data, status }
 

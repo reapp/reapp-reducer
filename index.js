@@ -1,5 +1,5 @@
 // Simple reducer for use with flux
-// reduces an array or map into an array of objects with:
+// reduces an array or object into an array of objects with:
 //   { id, data, status }
 
 // Status is given first so we can allow currying, ex:

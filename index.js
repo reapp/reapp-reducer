@@ -15,12 +15,15 @@ function reducer(status, obj) {
     status = 'OK';
   }
 
+  if (!obj)
+    return;
+
   if (!Array.isArray(obj))
     obj = [obj];
 
-  return obj.reduce((acc, data) => {
+  return obj.reduce(function(acc, data) {
     var id = data.id || uniqueId();
-    acc.push({ id, data, status });
+    acc.push({ id: id, data: data, status: status });
     return acc;
   }, []);
 }

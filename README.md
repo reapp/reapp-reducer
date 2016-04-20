@@ -3,7 +3,7 @@
 Simple reducer for use with flux. Reduces an array or map into an array of objects with:
   { id, data, status }
 
-Status is given first so we can allow currying, ex:
+Status is given first so we can allow currying, e.g.:
 
 ```js
 var loadedReducer = reducer.bind(null, 'LOADED');
